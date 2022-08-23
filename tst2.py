@@ -27,7 +27,7 @@ class usr:
         if self.is_login():
             print('Name: ', self.name , 'password: ', self.password )
             
-            #student management system's code star here
+            #student management system's code start from here
         students = [['Harry', 37.21], ['Berry', 23.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
         name = input("Enter your name: \n")
         for item in students:
