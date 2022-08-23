@@ -26,7 +26,8 @@ class usr:
     def profile(self):
         if self.is_login():
             print('Name: ', self.name , 'password: ', self.password )
-
+            
+            #student management system's code star here
         students = [['Harry', 37.21], ['Berry', 23.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
         name = input("Enter your name: \n")
         for item in students:
@@ -47,6 +48,7 @@ class usr:
             print("We are a cyber security expert, we work for any corporation industry ")
         if a in choice[1]:
             print("It's a simple student management system, developed by one of our best\nsenior member Emon Joy")
+            print("LOL Just kidding!!!")
 
 
 
