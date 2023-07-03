@@ -28,7 +28,7 @@ class usr:
             print('Name: ', self.name , 'password: ', self.password )
             
             #student management system's code start from here
-        students = [['Harry', 37.21], ['Berry', 23.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
+        students = [['Emon', 37.21], ['Joy', 23.21], ['Oishi', 37.2], ['Shunjida', 41], ['Sadika', 39]]
         name = input("Enter your name: \n")
         for item in students:
             if name == item[0]:
